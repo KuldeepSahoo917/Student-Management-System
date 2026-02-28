@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Dashboard</title>
+    <link rel="stylesheet" href="dashstyle.css"> <!-- You can link a CSS file here -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- FontAwesome for icons -->
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="navbar">
+            <h2>Student Management System</h2>
+            <ul>
+                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="students.html">Students</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dashboard Content -->
+    <div class="dashboard-container">
+        <div class="dashboard-welcome">
+            <h1>Welcome, [Student/Administrator Name]!</h1>
+            <p>Your dashboard for managing students and courses.</p>
+        </div>
+
+        <div class="dashboard-cards">
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <h3>Students</h3>
+                <p>Manage and view all students.</p>
+                <a href="students.html" class="btn">View Students</a>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-book"></i>
+                <h3>Courses</h3>
+                <p>Manage available courses.</p>
+                <a href="courses.html" class="btn">View Courses</a>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-calendar-check"></i>
+                <h3>Attendance</h3>
+                <p>Track student attendance.</p>
+                <a href="attendance.html" class="btn">View Attendance</a>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-cogs"></i>
+                <h3>Settings</h3>
+                <p>Update system settings.</p>
+                <a href="settings.html" class="btn">Go to Settings</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Student Management System</p>
+    </footer>
+
+</body>
+
+</html>
